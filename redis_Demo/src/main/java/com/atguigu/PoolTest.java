@@ -26,6 +26,8 @@ public class PoolTest {
         System.out.println(mans);
         System.out.println(ping);
 
+        System.out.println("git hotfix test");
+
         jedisPool.close();
     }
 }
